@@ -1,0 +1,28 @@
+
+Data Summary:
+-------------
+- Total entries: 27532
+- Total columns: 16
+
+Missing Data:
+-------------
+1. state: 12.0% missing
+2. fuel: 4.5% missing
+3. title_status and type: 1.7% missing
+
+Categorical Variables Distribution:
+-----------------------------------
+1. manufacturer: Most common are Ford, Chevrolet, and Toyota.
+2. condition: Majority are in 'excellent' and 'good' condition.
+3. fuel: Majority are 'gas', followed by 'diesel' and 'hybrid'.
+4. transmission: Majority are 'automatic'.
+5. drive: 'fwd' is the most common, followed by 'rwd' and '4wd'.
+6. type: 'sedan' and 'SUV' are the most common types.
+
+Numeric Variables Distribution:
+-------------------------------
+1. year: Most cars are recent models. There are incorrect years that need to be cleaned.
+2. odometer: Majority of the cars have mileage under 200,000 miles. Negative values are observed and need cleaning.
+3. price: Distribution is right-skewed with most cars priced at the lower end.
+
+Note: Some data values are incorrect and require cleaning.
